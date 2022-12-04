@@ -1,1 +1,110 @@
-<mxfile host="app.diagrams.net" modified="2022-12-03T05:32:57.360Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.6.0" etag="YSKHoBXn0uYJkB8OC0DC" type="github"><diagram id="1rct4p4m_nsGZsSGG5Xl">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-04T10:15:14.537Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.6.0" etag="LH4jw7O9dV0D7rPmar4P" type="github">
+  <diagram id="_8eEa0qsbk19TSsNcdSm" name="Page-1">
+    <mxGraphModel dx="1350" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WgdXBQ2NTK56fjWeRyxT-1" target="WgdXBQ2NTK56fjWeRyxT-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-1" value="Customer Service" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-3" value="POST&lt;br&gt;/customer/create" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="365" y="90" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-4" value="Publish Customer Created Command" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="250" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WgdXBQ2NTK56fjWeRyxT-6" target="WgdXBQ2NTK56fjWeRyxT-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-6" value="Customer Created Command Handler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WgdXBQ2NTK56fjWeRyxT-8" target="WgdXBQ2NTK56fjWeRyxT-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-8" value="Base Event Handler&lt;br&gt;(using self event bus)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-9" value="Event store" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="390" y="670" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WgdXBQ2NTK56fjWeRyxT-10" target="WgdXBQ2NTK56fjWeRyxT-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-10" value="Customer Domain Model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-12" value="Handle logic&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="415" y="360" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-15" value="If success, publish new BaseEvent object with COMMAND + EVENT (if exist)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="480" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-17" value="Save BaseEvent object to EventStore" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="630" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" source="WgdXBQ2NTK56fjWeRyxT-19" target="WgdXBQ2NTK56fjWeRyxT-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WgdXBQ2NTK56fjWeRyxT-19" target="WgdXBQ2NTK56fjWeRyxT-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-19" value="Customer Kafka Event Process" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-22" value="Read from CUSTOMER - {CustomerID} stream,&lt;br&gt;may saved to PROCESSED Event table" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="85" y="770" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-23" value="Kafka External Bus" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="980" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-25" value="If the BaseEvent Objectct contains EVENT, pulish to external bus" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="890" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WgdXBQ2NTK56fjWeRyxT-26" target="WgdXBQ2NTK56fjWeRyxT-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WgdXBQ2NTK56fjWeRyxT-26" target="WgdXBQ2NTK56fjWeRyxT-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-26" value="Another Service" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="970" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-29" value="Subscribe to a stream" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="975" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="WgdXBQ2NTK56fjWeRyxT-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="710" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="WgdXBQ2NTK56fjWeRyxT-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="680" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-32" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Read from multiple streams&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="680" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-33" value="View Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="80" y="500" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-35" value="Projection" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="620" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-37" value="&amp;nbsp;Command Handler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-39" value="Publish new command when received events" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="850" y="920" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WgdXBQ2NTK56fjWeRyxT-40" value="Projection Service" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="670" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
